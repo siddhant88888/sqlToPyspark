@@ -1,0 +1,3 @@
+# Azure App Service configuration
+language: python
+startupCommand: gunicorn backend.backend:app -w 4 -k uvicorn.workers.UvicornWorker
