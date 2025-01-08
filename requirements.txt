@@ -8,3 +8,4 @@ langchain-community==0.0.10
 langchain-groq==0.0.1
 langchain-anthropic==0.1.1
 gunicorn==20.1.0
+httpx==0.27.2
